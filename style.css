@@ -1,0 +1,134 @@
+﻿/* CSS Document */
+
+* {
+	margin:0; padding:0;
+	font-size:100%;
+}
+
+body{
+	background:#000;
+	text-align:center;
+}
+
+img {vertical-align:top;}
+a img { border:0;}
+
+ul { list-style:none;}
+
+.left { float:left;}
+.right {float:right;}
+.clear  { clear:both;}
+
+
+html, input, textarea
+	{
+		font-family:Tahoma;
+		font-size:0.688em;
+		line-height:1.455em;
+		color:#95514c;
+	}
+
+input, select { vertical-align:middle; font-weight:normal;}
+
+a {
+	color: #0000FF;
+}
+a:hover{
+	text-decoration:none;
+	color: #FF0;
+	font-size: 100%;
+	font-weight: bold;
+}
+strong {color:#fff062;}
+p {padding-top:16px;}
+
+/* ============================= main layout ====================== */
+
+.top_tile {background:#260301 url("images/tile_top.jpg") top repeat-x;}
+.bottom_tile {background:url("images/bottom_tile.gif") bottom repeat-x;}
+
+h1 {font-size:2.182em; line-height:1em; color:#fff062; margin-bottom:16px;}
+h2 {font-size:1.636em; line-height:1em; color:#e2dddd; border-bottom:1px solid #931200; margin-bottom:16px; font-weight:normal; padding-bottom:7px;}
+
+
+.link {background:url("images/link_tile_bg.gif") top repeat-x; display:block; float:left; color:#fff; font-size:1.091em; text-decoration:none; margin-top:11px;}
+.link strong {background:url("images/link_right_bg.gif") top right no-repeat; color:#fff; display:block;}
+.link em {background:url("images/link_left_bg.gif") top left no-repeat; font-style:normal; display:block; padding:5px 26px 32px 36px;}
+.link:hover {background:url("images/link_tile_bg_hover.gif") top repeat-x;}
+.link:hover strong {background:url("images/link_right_bg_hover.gif") top right no-repeat;}
+.link:hover em {background:url("images/link_left_bg_hover.gif") top left no-repeat;}
+
+li a { line-height:2.636em;}
+
+.imgindent {margin:0 20px 0 0; float:left;}
+
+.title1 {margin-top:40px;}
+.title2 {margin-top:20px;}
+.extra_title {background:url("images/line_hor.gif") bottom left repeat-x; padding-bottom:8px; border:none;}
+
+/* ============================= header ====================== */
+
+#header .menu {padding-left:40px;}
+#header .menu ul {width:100%; overflow:hidden;}
+#header .menu li {float:left;}
+#header .menu li a {color:#fff; text-decoration:none; font-weight:bold; font-size:1.091em; display:block; padding:14px 31px 19px 30px; background:url("images/menu_line.gif") top right no-repeat; line-height:1em;}
+#header .menu li a:hover {background:url("images/menu_hover.gif") top repeat-x;}
+#header .menu .active a {background:url("images/menu_hover.gif") top repeat-x;}
+#header .menu .first {background:url("images/menu_line.gif") top left no-repeat;}
+
+.logo {margin:109px 0 0 101px;}
+
+/* ============================= middle ====================== */
+
+.special {font-size:1.091em; line-height:1.333em;}
+.special strong {
+	color: #FFFFFF;
+}
+
+.column_padding {padding-right:59px;}
+.col_pad {padding-left:23px;}
+.col_pad2 {padding-right:22px;}
+.line_hor {background:url("images/line_hor.gif") bottom left repeat-x; padding:0 10px 18px 0; margin-bottom:15px;}
+.padding1 {padding-top:30px;}
+.padding2 {padding-top:10px;}
+.padding3 {padding-top:6px;}
+.padding4 {padding-top:20px;}
+
+.img {margin:5px 0 5px 0;}
+.yellow {color:#fff062;}
+.p {padding-top:10px;}
+.invert {text-decoration:none;}
+.invert:hover {text-decoration:underline;}
+.phone {float:right; margin-right:184px;}
+#index_7 #middle {padding:0 42px 50px 42px;}
+
+/* ============================= footer ====================== */
+
+#footer {font-size:0.909em; color:#777778;}
+#footer a {color:#777778;}
+
+#footer .menu {padding:18px 0 0 32px;}
+#footer .menu li { display:inline; border-right:1px solid #f7eeb6; padding:0 10px 0 8px;}
+#footer .menu li a {color:#f7eeb6; text-transform:uppercase; text-decoration:none; line-height:1.2em;}
+#footer .menu li a:hover {text-decoration:underline;}
+#footer .menu .last {border:none;}
+#footer p {padding:0 0 0 40px;}
+
+
+/* ============================= forms ============================= */
+
+form .rowi {height:30px;}
+form .link {float:right; margin-left:10px;}
+
+.input {width:262px; height:22px; border:1px solid #e19c97; background:none; padding:0 0 0 5px; font-size:1em;}
+textarea {width:256px; height:112px; border:1px solid #e19c97; background:none; padding:0 0 0 5px; overflow:auto; font-size:1em;}
+
+#index .top_tile .bottom_tile #main #middle .container .column2 .line_hor div {
+	color: #FFF;
+}
+.j {
+	color: #00F;
+}
+hyperlink for subscription link {
+	color: #FF0;
+}

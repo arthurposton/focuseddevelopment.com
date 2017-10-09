@@ -1,0 +1,57 @@
+﻿#main { width:1180px; margin:0 auto; text-align:left;}
+
+#header {height:458px; background:url("images/header_bg.jpg") top right no-repeat;}
+
+#middle { padding:0 42px 23px 42px;}
+
+#footer { height:69px;}
+
+.column1, .column2, .column3, .col1, .col2, .col3 {float:left;}
+.container {width:100%; overflow:hidden;}
+.container2 {width:100%;}
+
+/* ============================= index ===========================*/
+
+#index .column1 {width:603px;}
+#index .column2 {width:300px;}
+
+#index .line {background:url("images/line_ver.gif") repeat-y 270px 0;}
+#index .col1 {width:270px;}
+#index .col2 {width:271px;}
+
+/* ============================= index-1 ===========================*/
+
+#index_1 .column1 {width:353px;}
+#index_1 .column2 {width:543px;}
+
+/* ============================= index-2 ===========================*/
+
+#index_2 .column1 {width:603px;}
+#index_2 .column2 {width:293px;}
+
+/* ============================= index-3 ===========================*/
+
+#index_3 .column1 {width:353px;}
+#index_3 .column2 {width:543px;}
+
+/* ============================= index-4 ===========================*/
+
+#index_4 .column1 {width:603px;}
+#index_4 .column2 {width:293px;}
+
+#index_4 .col1 {width:205px;}
+#index_4 .col2 {width:330px;}
+
+/* ============================= index-5 ===========================*/
+
+#index_5 .column1 {width:353px;}
+#index_5 .column2 {width:543px;}
+
+/* ============================= index-6 ===========================*/
+
+#index_6 .column1 {width:603px;}
+#index_6 .column2 {width:293px;}
+
+#index_6 .col1 {width:278px;}
+#index_6 .col2 {width:263px;}
+
